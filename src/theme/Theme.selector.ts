@@ -1,4 +1,4 @@
-import { IRootState } from '@src/redux/interface';
+import { IRootState } from '@src/app-redux/interface';
 import { createSelector } from 'reselect';
 
 import { IThemeReducer } from './Theme.reducer';

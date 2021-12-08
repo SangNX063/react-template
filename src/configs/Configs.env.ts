@@ -4,15 +4,14 @@ interface IENVS {
   REACT_APP_IS_MAINNET: boolean;
   REACT_APP_VERSION: string;
   REACT_APP_DOMAIN_URL: string;
-  REACT_APP_IS_DEV: boolean;
-  FAST_REFRESH: boolean;
+  REACT_APP_COIN_SERVICE_URL: string;
 }
 
 const defaultEnvs = {
   REACT_APP_IS_MAINNET: false,
   REACT_APP_VERSION: '1.0',
-  REACT_APP_IS_DEV: false,
-  FAST_REFRESH: true,
+  REACT_APP_DOMAIN_URL: '',
+  REACT_APP_COIN_SERVICE_URL: '',
 };
 
 export const getEnvs = () => {

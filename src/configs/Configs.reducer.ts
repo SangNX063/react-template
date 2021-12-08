@@ -1,3 +1,4 @@
+import { Reducer } from 'redux';
 import { persistReducer } from 'redux-persist';
 import autoMergeLevel2 from 'redux-persist/es/stateReconciler/autoMergeLevel2';
 import storage from 'redux-persist/lib/storage';
@@ -20,7 +21,7 @@ const configReducer = (
     type: string;
     payload: any;
   },
-) => {
+): Reducer & any => {
   switch (action.type) {
     default:
       return state;

@@ -4,7 +4,10 @@
     "paths": {
       "@src/*" : ["./*"],
       "@components/*" : ["./components/*"],
-      "@modules/*" : ["./modules/*"]
+      "@modules/*" : ["./modules/*"],
+      "@utils/*" : ["./utils/*"],
+      "@configs/*" : ["./configs/*"],
+      "@services/*" : ["./services/*"]
     }
   }
 }
